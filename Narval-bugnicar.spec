@@ -1,7 +1,7 @@
 %define short_name bugnicar
 
 Summary:	Assistant that manages bugs
-Summary(pl):	Assystent do zarz±dzania pluskwami
+Summary(pl):	Asystent do zarz±dzania pluskwami
 Name:		Narval-%{short_name}
 Version:	20011016
 Release:	1
