@@ -25,7 +25,7 @@ Dostarcza konfiguracji asystenta który zarz±dza pluskwami.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -D %{SOURCE0} $RPM_BUILD_ROOT%{_datadir}/narval/apps
+install -D %{SOURCE0} $RPM_BUILD_ROOT%{_datadir}/narval/apps/%{short_name}-%{version}.npm
 
 %clean
 rm -rf $RPM_BUILD_ROOT
