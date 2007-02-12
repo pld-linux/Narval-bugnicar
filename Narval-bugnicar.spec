@@ -1,7 +1,7 @@
 %define short_name bugnicar
 
 Summary:	Assistant that manages bugs
-Summary(pl):	Asystent do zarz±dzania pluskwami
+Summary(pl.UTF-8):   Asystent do zarzÄ…dzania pluskwami
 Name:		Narval-%{short_name}
 Version:	20011016
 Release:	1
@@ -17,9 +17,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Bugnicar is an extension set for Narval.
 It provides a set up for an assistant that manages bugs.
 
-%description -l pl
-Bugnicar to zestaw rozszerzeñ dla Narvala.
-Dostarcza konfiguracji asystenta który zarz±dza pluskwami.
+%description -l pl.UTF-8
+Bugnicar to zestaw rozszerzeÅ„ dla Narvala.
+Dostarcza konfiguracji asystenta ktÃ³ry zarzÄ…dza pluskwami.
 
 %prep
 
